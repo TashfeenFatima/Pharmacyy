@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharmacy Section</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse ">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Pharmacy</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Health Condition <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+                <li><a href="/skinCare.html">Skin Care</a></li>
+                <li><a href="/healthCondition/painRelief.html">Pain Relief</a></li>
+                <li><a href="/healthCondition/weight.html">Weight Management</a></li>
+                <li><a href="/healthCondition/heart.html">Heart Health</a></li>
+                <li><a href="/healthCondition/cough.html">Cold & Cough</a></li>
+                <li><a href="/healthCondition/diabetes.html">Diabetes</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Categories <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="fam.html">Family Care</a></li>
+                  <li><a href="/healthCondition/baby.html">Baby Care</a></li>
+                  <li><a href="/healthCondition/wellness.html">Fitness & Wellness</a></li>
+                  <li><a href="/healthCondition/alt.html">Other Alternatives</a></li>
+
+                </ul>
+              </li>
+          </ul>
+          <form class="navbar-form navbar-left" action="/action_page.php">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </nav>
+       
+    <!--  <div class="container">
+        <h1><strong>Browse medicines & health products</strong></h1>
+        <p>Health condition</p>
+        <div class="health">
+            <img src="/img/skinCare.jpg" style="height: 200px; width: 200;" alt="skinCare">
+            <img src="/img/pain_relief.jpeg" style="height: 200px; width: 200;" alt="skinCare">
+            <img src="/img/Weight_Management.jpg" style="height: 200px; width: 200;" alt="skinCare">
+            <img src="/img/heart.jpeg" style="height: 200px; width: 200;" alt="skinCare">
+            <img src="https://images.healthshots.com/healthshots/en/uploads/2021/12/20155458/Cough1.jpg" style="height: 200px; width: 200;" alt="skinCare">
+        </div>
+      </div> -->
+     
+      <div class="container1">
+        <h1><strong>Browse medicines & health products</strong></h1>
+    
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="/img/web1.jpeg" style="height: 200px;" alt="web1">
+              </div>
+              <div class="item">
+                <img src="/img/web2.png" style="height: 200px; width: 200;" alt="web2">
+              </div>
+              <div class="item">
+                <img src="/img/web3.png" style="height: 200px; width: 200;" alt="web3">
+              </div>
+             
+             
+            </div>
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+      </div>
+      
+      <div class="container2">        
+        <h2>Health condition</h2>
+        <div class="health">
+            <a href="skinCare.html"><img src="https://static3.bigstockphoto.com/3/8/3/large1500/383102738.jpg" style="height: 150px; width: 150;" alt="skinCare"></a>
+            <a href="painRelief.html"><img src="/img/pain_relief.jpeg" style="height: 150px; width: 150;" alt="skinCare"></a>
+            <a href="weight.html"><img src="/img/wei8.jpeg" style="height: 150px; width: 150;" alt="skinCare"> </a>           
+            <a href="cough.html"><img src="https://images.healthshots.com/healthshots/en/uploads/2021/12/20155458/Cough1.jpg" style="height: 150px; width: 150;" alt="skinCare"></a>
+        </div>
+        <h2>Categories</h2>
+        <div class="health">
+          
+          <a href="wellness.html"><img src="img/wellness.jpeg" style="height: 150px; width: 150;" alt="skinCare"></a>
+          <a href="baby.html"><img src="/img/baby.jpeg" style="height: 150px; width: 150;" alt="skinCare"></a> 
+          <!--<a href="Fam.html"><img src="/img/Fam.jpg" style="height: 150px; width: 120;" alt="skinCare"></a> -->
+          <a href="heart.html"><img src="img/heart.png" style="height: 150px; width: 150;" alt="heart health"></a>
+          <a href="alt.html"><img src="/img/alt.png" style="height: 150px; width: 150;" alt="skinCare"></a> 
+      </div>
+      <footer>
+        <p>&copy; 2024 Pharmacy Site</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
